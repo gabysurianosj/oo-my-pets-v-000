@@ -17,6 +17,8 @@ class Owner
     @@all.size 
   end 
   
+  #Instance Methods 
+  
   def initialize(species)
     @species = species 
     @@all << self 
